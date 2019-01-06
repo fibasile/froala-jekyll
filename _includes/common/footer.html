@@ -1,0 +1,45 @@
+<footer class="fdb-block footer-large bg-dark" style="background: #d8332e !important">
+        <div class="container">
+          <div class="row align-items-top text-center text-md-left">
+          <div class="col-12 col-sm-6 col-md-6 text-left">
+            <h2 class="mt-5">Not an ordinary museum,<br>accessible, inclusive,interactive</h2>
+            <p class="text-white">
+            An open-source project by <a href="http://fabctory.com">fabctory</a>
+            </p>
+      
+            <p class="text-white">
+            Contact us:
+            <a href="mailto:{{site.data.contacts.email}}">{{site.data.contacts.email}}</a>
+            </p>
+          </div>
+        <div class="col-12 col-sm-6 col-md-3 text-left">
+  <ul class="nav flex-column">
+            {% if site.data.navigation %}
+            {% for item in site.data.navigation %}
+            <li class="nav-item"> <!-- is-active-->
+                <a class="nav-link" href="{{item.link}}">{{item.label | upcase}}</a>
+                <!-- <span class="sr-only">(current)</span> -->
+            </li>
+            {% endfor %}
+
+            {% endif %}
+            </ul>
+          </div>
+      
+            <div class="col-12 col-md-3 mt-5 mt-md-0 text-md-left">
+              <h3><strong>{{site.data.footer.about.title}}</strong></h3>
+              <p class="text-white">{{site.data.footer.about.description}}</p>
+   <p class="lead text-white">Follow us on</p>
+            <p>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-google" aria-hidden="true"></i></a>
+            </p>
+            </div>
+          </div>
+      
+
+        </div>
+      </footer>

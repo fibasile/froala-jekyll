@@ -1,0 +1,16 @@
+<section class="fdb-block bg-dark">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 col-xl-5">
+                <h1 class="text-light">{{ site.data.homepage.call1.title}}</h1>
+                <p class="lead text-light">{{ site.data.homepage.call1.description}}</p>
+                {% for action in  site.data.homepage.call1.actions %}
+                    <a class="btn {% if forloop.index0 ==0 %}btn-primary {% else %} btn-warning {%endif%}" href="{{action.link}}"">{{action.title}}</a>
+                {% endfor %}
+            </div>
+            <div class="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
+                <img alt="image" class="img-fluid" src="{{ site.data.homepage.call1.img | relative_url }}">
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,35 @@
+{% if site.data.homepage.who.features %}
+<section class="fdb-block bg-danger" >
+{%- comment -%} style="background-image: url(/assets/imgs/hero/purple.svg);" {%- endcomment -%}
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-white">
+          <h1>{{site.data.homepage.who.title}}</h1>
+        </div>
+      </div>
+  
+      <div class="row-70"></div>
+  
+      <div class="row text-center justify-content-sm-center no-gutters">
+        {% if site.data.homepage.who.features %}
+          {% for feature in site.data.homepage.who.features %}
+          <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-3 m-auto">
+            <div class="fdb-box fdb-touch">
+              <h2>{{feature.title}}</h2>
+              <p>{{feature.description}}</p>
+              {% if feature.link %}
+              <p class="mt-4"><a href="{{feature.link}}">Learn More <i class="fas fa-angle-right"></i></a></p>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        {% endif %}
+       
+      </div>
+    </div>
+  </section>
+  {% else %}
+  <pre>
+Define site.data.homepage.who
+  </pre>
+  {% endif %}

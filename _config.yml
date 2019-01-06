@@ -1,13 +1,13 @@
 title: micromuseum
 author: fabctory
-description: 
+description:
 # Link to a profile picture - required
 avatar: http://placehold.it/128x128
 # path to your repository - required
 repo: fibasile/www.micromuseum.cc
 # social links - optional
-mail:  info@fabctory.com
-logo: /assets/imgs/logo.png
+mail: info@fabctory.com
+logo: /assets/imgs/logo.svg
 
 # theme - fill out if you want to change colors
 
@@ -22,7 +22,7 @@ paginate: 15
 
 # change this if you are on a project repo, not a username.github.io repo
 # for example, if your repo is hello-world, set this to hello-world
-path: 
+path:
 
 # Ignore the rest of this file unless you want to change more settings
 rss: rss
@@ -31,10 +31,9 @@ permalink: /blog/:title/
 paginate_path: "/blog/:num/"
 
 sass:
-    style: compact
-    sass_dir: assets/css
+  style: compact
+  sass_dir: assets/css
 
 plugins:
- - jekyll-feed
- - jekyll-paginate
-
+  - jekyll-feed
+  - jekyll-paginate

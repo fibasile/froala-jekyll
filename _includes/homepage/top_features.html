@@ -1,0 +1,13 @@
+<div class="fdb-block">
+<div class="container">
+    <!-- Intro left - right -left -->
+    {% for feature in site.data.homepage.top_features %}
+     {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 0 %}
+    {% include homepage/feature_left.html item=feature %} 
+    {% else %}
+    {% include homepage/feature_right.html item=feature %} 
+    {% endif %}
+    {% endfor %}
+</div>
+</div>

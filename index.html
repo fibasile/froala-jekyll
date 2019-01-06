@@ -1,61 +1,60 @@
 ---
-layout:  default
+layout: default
+title: Homepage
+
 ---
 
+<!-- see data.homepage.hero_slider -->
 
-<!-- hero -->
+{% include homepage/hero.html %}
 
-{% include blocks/carousel/carousel1.html %}
+<!-- see data.homepage.top_features -->
 
-<!-- Intro left - right -left -->
-{% include blocks/contents/contents23.html %}
+<a name="about"/>
 
-{% include blocks/contents/contents24.html %}
+{% include homepage/top_features.html %}
 
-{% include blocks/contents/contents23.html %}
+<!-- see data.homepage.who -->
 
-<!-- who is it for -->
-{% include blocks/features/features4.html %}
+{% include homepage/who.html %}
 
-<!-- large features block -->
-{% include blocks/features/features8.html %}
+<!-- see data.homepage.main_feature -->
+
+{% include homepage/main_feature.html %}
+
+<a name="kit"/>
+<!-- see data.homepage.product_features-->
+{% include homepage/product_features.html %}
+
+<!-- data.homepage.key_features -->
+
+{% include homepage/product_features2.html %}
+
+<!-- data.homepage.call1-->
+{% include homepage/product_easy.html %}
+
+<!-- data.homepage.app -->
+{% include homepage/product_app.html %}
+
+<a name="workshop"/>
+<!-- data.homepage.video -->
+{% include homepage/workshop_video.html %}
+
+<!-- data.homepage.workshop -->
+{% include homepage/workshop_feature.html %}
 
 
-<!-- kit contents-->
-
-{% include blocks/features/features25.html %}
-
-<!-- key features-->
-
-{% include blocks/features/features11.html %}
-
-<!-- easy to use-->
-
-<!-- mobile app -->
-
-{% include blocks/features/features16.html %}
-
-<!-- workshop trailer -->
-
-<!-- workshop feature -->
-
-{% include blocks/features/features17.html %}
+<a name="faq"/>
+<!-- data.faq -->
 
 
-<!-- FAQ -->
 
-{% include blocks/contents/contents35.html %}
+<!-- data.homepage.call2 -->
+{% include homepage/call_action_blog.html %}
 
-<!----->
-
-{% include blocks/call-to-action/call-to-action21.html %}
-
-<!-- Check out blog-->
-
-{% include blocks/call-to-action/call-to-action16.html %}
-
-<!-- Contact form -->
-{% include blocks/contacts/contacts1.html  %}
+<a name="contacts"/>
+<!-- data.contacts -->
+{% include common/contact_us.html %}
 
 <!-- Newsletter -->
-{% include blocks/newsletter/forms9.html %}
+{% include common/newsletter.html %}

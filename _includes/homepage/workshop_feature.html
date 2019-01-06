@@ -1,0 +1,32 @@
+ <section class="fdb-block home-workshop-feature">
+      <div class="col-fill-right  d-none d-sm-none d-md-block" style="background-image: url({{site.data.homepage.workshop.img}});">
+      </div>
+    
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-5 text-center">
+            <h1>{{site.data.homepage.workshop.title}}</h1>
+            <p class="lead text-white">{{site.data.homepage.workshop.description}}</p>
+            <p class="mt-4 mb-5">
+               {% for action in site.data.homepage.workshop.actions %}
+
+                    <a class="btn btn-outline-light   btn-lg mr-2" href="{{action.link}}"">{{action.title}}</a>
+           
+                {% endfor %}
+
+      
+            
+            </p>
+    
+            <p class="lead text-white">Follow us on</p>
+            <p>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+              <a href="https://www.froala.com" class="mx-2 text-white"><i class="fab fa-google" aria-hidden="true"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>

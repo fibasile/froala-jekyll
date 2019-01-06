@@ -1,0 +1,176 @@
+hero_slides:
+  - title: a digital museum, everywhere
+    img: "/assets/imgs/hero/red.svg"
+  - title: accessible, interactive, for everyone
+    img: "/assets/imgs/hero/red.svg"
+
+top_features:
+  - title: Accessible
+    description: |
+      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+    img: "/assets/imgs/draws/iphone-hand.svg"
+    actions:
+      - title: Register
+        link: "/register"
+      - title: Download
+        link: "/download"
+  - title: Interactive
+    description: |
+      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+    img: "/assets/imgs/draws/iphone-hand.svg"
+    actions:
+      - title: Register
+        link: "/register"
+      - title: Download
+        link: "/download"
+  - title: Open-source
+    description: |
+      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+    img: "/assets/imgs/draws/iphone-hand.svg"
+    actions:
+      - title: Github Project
+        link: "/register"
+      - title: Documentation
+        link: "/download"
+
+who:
+  title: Who is it for?
+  features:
+    - title: Schools
+      description: |
+        Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+      img: "/assets/imgs/draws/iphone-hand.svg"
+      link: "/more"
+    - title: Libraries
+      description: |
+        Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+      img: "/assets/imgs/draws/iphone-hand.svg"
+      link: "/more"
+    - title: Fab Labs
+      description: |
+        Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+      img: "/assets/imgs/draws/iphone-hand.svg"
+      link: "/more"
+
+main_feature:
+  title: Micromuseum Base station
+  img: "/assets/imgs/draws/iphone-hand.svg"
+  features:
+    - title: Feature 1
+      img: /assets/imgs/icons/map.svg
+    - title: Feature 1
+      img: /assets/imgs/icons/map.svg
+    - title: Feature 1
+      img: /assets/imgs/icons/map.svg
+
+product_features:
+  title: Micromuseum KIT
+  description: Each kit contains everything to get started and build your Micromuseum
+  img: "/assets/imgs/draws/iphone-hand.svg"
+  features:
+    - title: Micromuseum Base Station
+      img: /assets/imgs/icons/map.svg
+    - title: RFID Tags
+      img: /assets/imgs/icons/monitor.svg
+    - title: USB Cable
+      img: /assets/imgs/icons/gift.svg
+    - title: Instruction Manual
+      img: /assets/imgs/icons/github.svg
+    - title: 3D Printed model samples
+      img: /assets/imgs/icons/map-pin.svg
+    - title: MicroSD Card with Audio samples
+      img: /assets/imgs/icons/package.svg
+
+key_features:
+  title: Features
+  description:
+  features:
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+
+call1:
+  title: "Easy to use"
+  description: |
+    Each kit contains everything to get started and build your Micromuseum
+    You can even make your own from scratch starting from the Open-source project on Github
+  img: /assets/imgs/icons/map.svg
+  actions:
+    - title: Github
+      link: http://github.com
+    - title: Documentation
+      link: http://github.com
+
+app:
+  title: "Micromuseum App"
+  description: "Control and program your Micromuseum Base Station"
+
+  actions:
+    - title: Android
+      description: Get it from Google Play
+      link: http://placehold.it/200x64?t=Play%20store
+      img: /assets/imgs/appstore/google-play-badge.png
+    - title: iOS
+      description: Get it from Apple store
+      link: http://placehold.it/200x64?t=Play%20store
+      img: /assets/imgs/appstore/app-store-badge.png
+
+  features:
+    - title: Quick start-up
+      description: Configure your base station and get started in less than one minute
+      img: /assets/imgs/icons/mail.svg
+    - title: No computer needed
+      description: Upload your audio files to the station directly from your Smartphone, no computer needed!
+      img: /assets/imgs/icons/map.svg
+    - title: No internet connection
+      description: Since everything is done using the local Wifi, the app won't use any of your data plan
+      img: /assets/imgs/icons/gift.svg
+
+video:
+  title: Last Micromuseum Workshop
+  description: Host a workshop with the project creators directly in your premises
+  link: https://www.youtube.com/embed/zpOULjyy-n8?rel=0
+
+workshop:
+  title: Workshop title
+  description: Workshop description
+  img: /assets/imgs/people/7.jpg
+  actions:
+    - title: Contact us
+      link: "/"
+    - title: Learn more
+      link: "/"
+  features:
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+    - title: Open source
+      description: Each kit contains everything to get started and build your Micromuseum
+      img: /assets/imgs/icons/map.svg
+
+call2:
+  title: "Follow the project development"
+  description: "We document all the work we do on Micromuseum, so a great way to catch up with the latest development is to checkout our Blog!"
+  action: "Go to Blog"
+  link: "/blog"

@@ -1,0 +1,38 @@
+<!-- Headers 6 -->
+<header class="main-header">
+    <div class="container">
+        <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand text-white text-center" href="{{'/' | relative_url}}">
+        {%- comment -%} micromuseum {%- endcomment -%}
+            <img src="{{ site.logo | relative_url}}" alt="image"><br>
+            {{site.title}}
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav3">
+            <ul class="navbar-nav ml-auto">
+            {% if site.data.navigation %}
+            {% for item in site.data.navigation %}
+            {% if forloop.last %}
+            {% else %}
+            <li class="nav-item"> <!-- is-active-->
+                <a class="nav-link" href="{{item.link}}">{{item.label | upcase}}</a>
+                <!-- <span class="sr-only">(current)</span> -->
+            </li>
+            {% endif %}
+            {% endfor %}
+
+            {% endif %}
+            </ul>
+                    {% for item in site.data.navigation %}
+                    {% if forloop.last %}
+            <a class="btn btn-outline-light ml-md-3" href="{{item.link}}" style="white-space: nowrap">{{item.label}}</a>
+            {%endif%}
+            {%endfor%}
+        </div>
+        </nav>
+    </div>
+    </header>

@@ -1,0 +1,26 @@
+<section class="home-product-features fdb-block">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>{{site.data.homepage.product_features.title}}</h1>
+                {%- comment -%} <p class="lead"><a href="https://www.froala.com">See all features <i class="fas fa-angle-right"></i></a>
+                </p> {%- endcomment -%}
+                <p class="lead text-light">{{site.data.homepage.product_features.description}}</p>
+                <button class="btn btn-outline-dark btn-lg">Pre-order kit</button>
+            </div>
+        </div>
+<div class="card mt-3 ml-auto mr-auto"  style="width: 100%; max-width: 48rem;">
+ <div class="card-body">
+        <div class="row text-center justify-content-center mt-0 features">
+        {% for feature in site.data.homepage.product_features.features %}
+            <div class="col-6 col-sm-4 pt-5 pt-sm-4">
+                <img alt="image" class="img-fluid rounded" src="{{ feature.img | relative_url }}">
+                <h3><strong>{{feature.title}}</strong></h3>
+            </div>
+          {% endfor %}
+          
+        </div>
+</div>
+</div>
+    </div>
+</section>

@@ -1,69 +1,69 @@
-body {}
-
-
-.header6 {
-  padding: 32px 0;
-  background-color: #d8332e;
-
-  .btn-primary {
-    color: #fff;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 32px;
-  }
-
-  .btn-primary:hover {
-    color: #fff;
-    background-color: #f8ab0c;
-    border-color: #f8ab0c;
-  }
-
-  .btn-primary:focus,
-  .btn-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(50, 158, 247, 0.5);
-  }
-
-  .btn-primary.disabled,
-  .btn-primary:disabled {
-    color: #fff;
-    background-color: #dedede;
-    border-color: #dedede;
-  }
-
-  .btn-primary:not(:disabled):not(.disabled):active,
-  .btn-primary:not(:disabled):not(.disabled).active,
-  .show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #f8ab0c;
-    border-color: #f8ab0c;
-  }
-
-  .btn-primary:not(:disabled):not(.disabled):active:focus,
-  .btn-primary:not(:disabled):not(.disabled).active:focus,
-  .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(50, 158, 247, 0.5);
-  }
-
-
-li.nav-item a.nav-link {
-    color: white;
-  }
-
-  li.nav-item a.nav-link:hover {
-    color: white;
-    text-decoration: underline;
-  }
-
-
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+.wrapper {
+    // min-height: 50vh;
+    background-color: #d8332e;
+    // padding-bottom: 32px;
 }
 
+.navbar-brand img {
+    padding: 0;
+    height: 64px;
+}
 
-
-
-
-
+.main-header {
+    // padding: 6px 0;
+    background-color: #d8332e;
+    li.nav-item a.nav-link {
+        color: white;
+    }
+    li.nav-item a.nav-link:hover {
+        color: white;
+        text-decoration: underline;
+    }
+}
 
 // d8332e rosso
 // 1dd7c8 cyan
 // f8ab0c giallo
 // ffffff white
+.homepage-hero {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    // padding: 7.5rem 0;
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.home-feature {
+    // margin-bottom: 64px;
+}
+
+.home-product-features {
+    background-color: #1dd7c8;
+    margin: 0 auto;
+    .features {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.home-product-app {
+    background-color: #d8332e;
+    margin: 0 auto;
+    color: white;
+    .home-product-app-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .home-product-app-item img.img-fluid {
+        height: 150px;
+    }
+}
+
+.home-workshop-feature {
+    background-color: #d8332e;
+    margin: 0 auto;
+    color: white;
+}

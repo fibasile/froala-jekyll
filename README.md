@@ -2,6 +2,4 @@
 
 WIP!
 
-This is a Jekyll theme using bootstrap 4 and Froala Design Blocks.
-
-
+This is a Jekyll theme using [Bootstrap 4(https://getbootstrap.com)] and [Froala Design Blocks](https://www.froala.com/design-blocks).

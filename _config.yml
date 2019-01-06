@@ -1,0 +1,40 @@
+title: micromuseum
+author: fabctory
+description: 
+# Link to a profile picture - required
+avatar: http://placehold.it/128x128
+# path to your repository - required
+repo: fibasile/www.micromuseum.cc
+# social links - optional
+mail:  info@fabctory.com
+logo: /assets/imgs/logo.png
+
+# theme - fill out if you want to change colors
+
+theme_nav: "#dddddd" # color of the navbar
+theme_accent: "#1199ff" # color of links and some other things
+theme_tags: "#ee7700" # color of tags on post pages
+theme_footer: "#999999" # color of the footer
+
+# Optional config - just for more customization or troubleshooting
+# how many posts to show per page
+paginate: 15
+
+# change this if you are on a project repo, not a username.github.io repo
+# for example, if your repo is hello-world, set this to hello-world
+path: 
+
+# Ignore the rest of this file unless you want to change more settings
+rss: rss
+permalink: /blog/:title/
+
+paginate_path: "/blog/:num/"
+
+sass:
+    style: compact
+    sass_dir: assets/css
+
+plugins:
+ - jekyll-feed
+ - jekyll-paginate
+

@@ -1,0 +1,16 @@
+- label: Home
+  link: '/'
+- label: About
+  link: '#about'
+- label: Kit
+  link: '#kit'
+- label: 'Workshop'
+  link: '#workshop'
+- label: 'FAQ'
+  link: '#faq'
+- label: 'Contacts'
+  link: '#contacts'
+- label: '|'
+  link: '#'
+- label: 'Blog'
+  link: '/blog'

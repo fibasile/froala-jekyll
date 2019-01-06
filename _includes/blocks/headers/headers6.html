@@ -1,0 +1,29 @@
+    <!-- Headers 6 -->
+    <header class="header6">
+            <div class="container">
+              <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="https://www.froala.com">
+                    <img src="{{ site.logo | relative_url}}" height="30" alt="image">
+                </a>
+          
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarNav3">
+                  <ul class="navbar-nav ml-auto">
+                    {% if site.data.navigation %}
+                    {% for item in site.data.navigation %}
+                    <li class="nav-item"> <!-- is-active-->
+                      <a class="nav-link" href="{{item.link}}">{{item.label | uppercase}}</a>
+                      <!-- <span class="sr-only">(current)</span> -->
+                    </li>
+                    {% endfor %}
+
+                    {% endif %}
+                  </ul>
+                  <a class="btn btn-primary ml-md-3" href="https://www.froala.com" style="white-space: nowrap">Get it now!</a>
+                </div>
+              </nav>
+            </div>
+          </header>

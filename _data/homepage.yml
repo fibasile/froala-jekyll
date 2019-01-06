@@ -122,7 +122,7 @@ call1:
 app:
   title: "Micromuseum App"
   description: "Control and program your Micromuseum Base Station"
-
+  img: /assets/imgs/draws/simple-iphone.svg
   actions:
     - title: Android
       description: Get it from Google Play

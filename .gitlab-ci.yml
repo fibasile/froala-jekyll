@@ -5,13 +5,13 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
-  - bundle install
+  - bundle install -j $(nproc) --path vendor
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
   paths: 
   - vendor/ruby
-  - /usr/local/bundle
+
 test:
   stage: test
   script:

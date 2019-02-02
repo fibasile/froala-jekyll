@@ -1,9 +1,7 @@
-<section >
+<section class="section section-large">
     <div class="container">
-        <div class="row align-items-center">
-
-
-            <div class="col-12 ml-md-auto col-md-7 col-lg-6 pb-5 pb-md-0">
+        <div class="row ">
+            <div class="col-12 ml-md-auto col-md-7 col-lg-6">
                 {%- comment -%} <img alt="image" class="fdb-icon" src="{{'/assets/imgs/icons/gift.svg' | relative_url }}"> {%- endcomment -%}
                 <h1>{{include.item.title}}</h1>
                 <p class="lead">{{include.item.description}}</p>
@@ -19,7 +17,7 @@
              
                 </p>
             </div>
-            <div class="col-10 col-sm-6 col-md-5 col-lg-4 m-auto pb-5 pb-md-0">
+            <div class="col-10 col-sm-6 col-md-5 col-lg-6 m-auto">
                 <img alt="image" class="img-fluid rounded-0" src="{{ include.item.img | relative_url }}">
             </div>
         </div>

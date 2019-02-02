@@ -41,7 +41,7 @@
 }
 
 .home-product-features {
-    background-color: #1dd7c8;
+    background-color: #00acdd;
     margin: 0 auto;
     .features {
         max-width: 600px;
@@ -66,4 +66,43 @@
     background-color: #d8332e;
     margin: 0 auto;
     color: white;
+}
+
+.section-large {
+    margin: 64px auto;
+}
+
+.bg-blue {
+    background-color: #00acdd
+}
+
+.section {
+    clear: both
+}
+
+.who-feature {
+    height: 450px;
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-down(lg) {
+    .who-feature {
+        height: auto;
+    }
+}
+
+.round-number {
+    border-radius: 24px;
+    width: 24px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 12px;
+    // font-family: Helvetica, monospaced;
+    vertical-align: center;
+    padding: 2px 2px 2px 3px;
 }

@@ -1,88 +1,123 @@
 hero_slides:
-  - title: a digital museum, everywhere
+  - title: Not an ordinary Micromuseum
+    subtitle: Open, Accesible, Interactive, For everyone
     img: "/assets/imgs/hero/red.svg"
   - title: accessible, interactive, for everyone
     img: "/assets/imgs/hero/red.svg"
 
 top_features:
-  - title: Accessible
+  - title: A digital museum, everywhere
     description: |
-      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
-      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
-    img: "/assets/imgs/draws/iphone-hand.svg"
+      Start your micromuseum today and showcase 3D models of what you like the most!
+    img: "/assets/images/home/01_home.jpg"
     actions:
-      - title: Register
-        link: "/register"
-      - title: Download
-        link: "/download"
-  - title: Interactive
+      - title: Pre-order the Kit
+        link: "/preorder"
+  - title: A learning experience in digital fabrication
     description: |
-      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
-      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
-    img: "/assets/imgs/draws/iphone-hand.svg"
+      Get the fabrication skills and learn how to combine electronics, 
+      3D print and scanning technologies to create your interactive micromuseum!
+    img: "/assets/images/home/02_home.jpg"
     actions:
-      - title: Register
-        link: "/register"
-      - title: Download
-        link: "/download"
-  - title: Open-source
+      - title: Organize a workshop
+        link: "#workshop"
+  - title: Open-source project,<br>documentation included!
     description: |
-      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
-      Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
-    img: "/assets/imgs/draws/iphone-hand.svg"
+      Learn more about Micromuseum with the Github source files and documentation. 
+      You can build your own Micromuseum from scratch and contribute back to the community.
+    img: "/assets/images/home/03_home.jpg"
     actions:
       - title: Github Project
-        link: "/register"
+        link: "https://gitlab.fabcloud.org/fibasile/micromuseum"
       - title: Documentation
-        link: "/download"
+        link: "https://blog.micromuseum.cc"
 
 who:
   title: Who is it for?
   features:
     - title: Schools
       description: |
-        Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+        Engage students with a powerful <strong>STEM teaching aid</strong>. Thanks to a complete <strong>workshop guide</strong>,  
+        you can engage students on <strong>3D Printing</strong>, <strong>electronics</strong> 
+        and <strong>3D scanning</strong> to build a Micromuseum kit in the classroom
       img: "/assets/imgs/draws/iphone-hand.svg"
-      link: "/more"
+      # link: "/more"
+    - title: Museums
+      description: |
+        Add a <strong>touch of technology</strong> to your exhibitions, <strong>host workshops with schools</strong> 
+        and attract younger visitors. You will soon be able to contribute models to the <strong>Micromuseum library</strong> and <strong>promote your museum</strong>
+      img: "/assets/imgs/draws/iphone-hand.svg"
+      # link: "/more"
     - title: Libraries
       description: |
-        Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+        Explore new ways of <strong>attracting a younger audience</strong>, enhance your collections with interactive tools, create <strong>more value</strong> out of your
+        community and educational activities
       img: "/assets/imgs/draws/iphone-hand.svg"
-      link: "/more"
+      # link: "/more"
     - title: Fab Labs
       description: |
-        Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor. Lorem ipsum dolor set amor.
+        Teach digital fabrication skills and <strong>attract young fabbers and schools</strong>
+        <strong>Build yourself the kits</strong>, customize them to your needs, get <strong>full access to documentation</strong> and projects. All contributions welcomed.
       img: "/assets/imgs/draws/iphone-hand.svg"
-      link: "/more"
+      # link: "/more"
 
 main_feature:
-  title: Micromuseum Base station
-  img: "/assets/imgs/draws/iphone-hand.svg"
+  title: About micromuseum
+  img: "/assets/images/home/04_home.jpg"
   features:
-    - title: Feature 1
-      img: /assets/imgs/icons/map.svg
-    - title: Feature 1
-      img: /assets/imgs/icons/map.svg
-    - title: Feature 1
-      img: /assets/imgs/icons/map.svg
+    - title: A little museum, everywhere you need one
+      description: |
+        Micromuseum is an <strong>open-source</strong> project aiming to make art and global culture accessible to everyone.
+        Only few people can travel around the world and visit real museums because of age, economical status or disabilities.
+    - title: Locally 3D Printed and assembled
+      description: |
+        Micromuseum makes it possible to create an interactive exhibition with art pieces from all over the world,
+        using 3D Printing and Scanning, DIY electronics and other digital fabrication techniques.
+    - title: Workshop and DIY kits
+      description: |
+        Content and kits ready for pre-order, to develop your micromuseum in few steps.<br><br>
+        <strong>We will start shipping pre-orders in June 2019, on a first-come, first-served basis.</strong>
 
 product_features:
   title: Micromuseum KIT
   description: Each kit contains everything to get started and build your Micromuseum
-  img: "/assets/imgs/draws/iphone-hand.svg"
+  img: "/assets/icons/SVG/kit_contents.svg"
+  action:
+    label: "Pre-order your KIT today"
+    target: "/preorder"
   features:
-    - title: Micromuseum Base Station
-      img: /assets/imgs/icons/map.svg
-    - title: RFID Tags
-      img: /assets/imgs/icons/monitor.svg
-    - title: USB Cable
-      img: /assets/imgs/icons/gift.svg
-    - title: Instruction Manual
-      img: /assets/imgs/icons/github.svg
-    - title: 3D Printed model samples
-      img: /assets/imgs/icons/map-pin.svg
-    - title: MicroSD Card with Audio samples
-      img: /assets/imgs/icons/package.svg
+    - title: RFID Reader Breakout board
+    # img: /assets/icons/SVG/icon_nfc_breakboard.svg
+    - title: Adafruit Feather MP3 Player
+      # img: /assets/imgs/icons/monitor.svg
+    - title: Adafruit Feather ESP 32
+      # img: /assets/imgs/icons/gift.svg
+    - title: Adafruit Flora Neopixel
+      # img: /assets/imgs/icons/github.svg
+    - title: Female Header PINs
+      # img: /assets/imgs/icons/map-pin.svg
+    - title: MicroSD Card
+      # img: /assets/imgs/icons/package.svg
+    - title: Speaker
+    - title: 3D Printed Enclosure
+    - title: Sample 3D Printed parts
+    - title: Screws
+    - title: RFID tags
+    - title: USB 2A Power supply
+    - title: Instructions manual
+    - title: Bubu peru
+
+how_features:
+  title: How does it work?
+  features:
+    - title: Plug the Micromuseum Base Station
+      img: /assets/icons/SVG/icon_base_station.svg
+    - title: Record Audio tracks and upload
+      img: /assets/icons/SVG/icon_audiorecording.svg
+    - title: Scan and associate tags
+      img: /assets/icons/SVG/icon_tag_scanning.svg
+    - title: RFID tag triggers the associated audio file
+      img: /assets/icons/SVG/icon_audio_play.svg
 
 key_features:
   title: Features

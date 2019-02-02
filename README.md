@@ -1,5 +1,9 @@
-# Froala Jekyll theme
+# Micromuseum.cc website
 
-WIP!
+This is the public website of the micromuseum.cc project.
 
-This is a Jekyll theme using [Bootstrap 4(https://getbootstrap.com)] and [Froala Design Blocks](https://www.froala.com/design-blocks).
+
+## How was made
+
+This site uses the [froala-jeklly](https://github.com/fibasile/froala-jekyll) Jekyll theme
+based on [Bootstrap 4(https://getbootstrap.com)] and [Froala Design Blocks](https://www.froala.com/design-blocks).

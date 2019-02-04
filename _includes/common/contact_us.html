@@ -1,4 +1,4 @@
-<section class="fdb-block pt-0 bg-dark">
+<section class="fdb-block pt-0 bg-yellow">
     {% if site.data.contacts.map%}
         <div class="container-fluid p-0 pb-md-5">
           <iframe class="map" src="{{site.data.contacts.map}}" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
@@ -7,14 +7,14 @@
         <div class="container">
           <div class="row mt-5">
             <div class="col-12 col-md-6 col-lg-5">
-              <h2>Contact Us</h2>
-              <p class="lead">
+              <h2>{{site.data.contacts.title}}</h2>
+              <p class="lead text-dark">
                 {{site.data.contacts.description}}
               </p>
       
 
       
-              <p class="h3 mt-5">
+              <p class="h3 mt-5 text-dark">
                 <strong>Email:</strong> <a href="mailto:{{site.data.contacts.email}}">{{site.data.contacts.email}}</a>
               </p>
               {% if site.data.contacts.phone %}

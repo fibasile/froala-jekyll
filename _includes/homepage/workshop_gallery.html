@@ -1,0 +1,68 @@
+<section class="section section-large home-workshop-gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center pb-5">
+                <h1>{{site.data.homepage.workshop_gallery.title}}</h1>
+                <div class="h3 text-muted">
+                    {{site.data.homepage.workshop_gallery.subtitle}}
+                </div>
+            </div>
+            <div class="col-12 col-lg-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        {% for slide in site.data.homepage.workshop_gallery.slides %}
+                        <li data-target="#carouselExampleIndicators" data-slide-to="{{forloop.index0}}" class="{% if forloop.index0 == 0 %}active {% endif %}"></li>
+                        {% endfor %}
+                    </ol>
+                    <div class="carousel-inner">
+                        {% for slide in site.data.homepage.workshop_gallery.slides %}
+                        <div class="carousel-item {% if forloop.index0==0 %}active{%endif%}">
+                            <img class="d-block w-100" src="{{slide.image | relative_url}}" alt="{{slide.title}}">
+                            <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10%; width: 50%; text-align: left;">
+                                <h1 class="text-white">{{slide.title}}</h1>
+                                <!-- <h3 class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi suscipit voluptas a itaque quis cupiditate explicabo quo architecto amet</h4> -->
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 col-lg-7 pt-2 ">
+                <div class="box">
+                    <div class="h2 text-muted pb-2">{{site.data.homepage.workshop_gallery.description}}</div>
+
+                    <a href="{{site.data.homepage.workshop_gallery.action.url}}" class="btn btn-primary">{{site.data.homepage.workshop_gallery.action.title}}</a>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-1"></div>
+            <div class="col-12 col-lg-4">
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="h4">{{site.data.homepage.workshop_gallery.features_title}}</div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            {% for item in site.data.homepage.workshop_gallery.features %}
+                            <li class="list-group-item p-0 pt-2 pb-2 m-0"><i class="fa fa-check-circle text-danger"></i> {{item}}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

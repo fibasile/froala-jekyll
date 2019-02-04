@@ -40,25 +40,25 @@ who:
         Engage students with a powerful <strong>STEM teaching aid</strong>. Thanks to a complete <strong>workshop guide</strong>,  
         you can engage students on <strong>3D Printing</strong>, <strong>electronics</strong> 
         and <strong>3D scanning</strong> to build a Micromuseum kit in the classroom
-      img: "/assets/imgs/draws/iphone-hand.svg"
+      img: "/assets/icons/flaticon/school.svg"
       # link: "/more"
     - title: Museums
       description: |
         Add a <strong>touch of technology</strong> to your exhibitions, <strong>host workshops with schools</strong> 
         and attract younger visitors. You will soon be able to contribute models to the <strong>Micromuseum library</strong> and <strong>promote your museum</strong>
-      img: "/assets/imgs/draws/iphone-hand.svg"
+      img: "/assets/icons/flaticon/museum.svg"
       # link: "/more"
     - title: Libraries
       description: |
         Explore new ways of <strong>attracting a younger audience</strong>, enhance your collections with interactive tools, create <strong>more value</strong> out of your
         community and educational activities
-      img: "/assets/imgs/draws/iphone-hand.svg"
+      img: "/assets/icons/flaticon/library.svg"
       # link: "/more"
     - title: Fab Labs
       description: |
         Teach digital fabrication skills and <strong>attract young fabbers and schools</strong>
         <strong>Build yourself the kits</strong>, customize them to your needs, get <strong>full access to documentation</strong> and projects. All contributions welcomed.
-      img: "/assets/imgs/draws/iphone-hand.svg"
+      img: "/assets/icons/flaticon/3d-printer.svg"
       # link: "/more"
 
 main_feature:
@@ -110,13 +110,17 @@ product_features:
 how_features:
   title: How does it work?
   features:
-    - title: Plug the Micromuseum Base Station
+    - title: Power the Base Station
       img: /assets/icons/SVG/icon_base_station.svg
-    - title: Record Audio tracks and upload
-      img: /assets/icons/SVG/icon_audiorecording.svg
-    - title: Scan and associate tags
-      img: /assets/icons/SVG/icon_tag_scanning.svg
-    - title: RFID tag triggers the associated audio file
+    - title: Configure it with the Android and iOS app
+      img: /assets/icons/SVG/icon_wifi_app.svg
+    - title: Get audio files and 3D models
+      img: /assets/icons/SVG/icon_audiofiles.svg
+    - title: 3D print your models
+      img: /assets/icons/SVG/icon_3d_print.svg
+    - title: Scan and connect tags to audio guide
+      img: /assets/icons/SVG/icon_scanning.svg
+    - title: Learn and have fun
       img: /assets/icons/SVG/icon_audio_play.svg
 
 key_features:
@@ -141,6 +145,31 @@ key_features:
     - title: Open source
       description: Each kit contains everything to get started and build your Micromuseum
       img: /assets/imgs/icons/map.svg
+
+workshop_gallery:
+  title: Micromuseum Workshop
+  subtitle: Organize a workshop and learn everything about Micromuseum with us
+  description: |
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus omnis unde, blanditiis nisi expedita exercitationem dignissimos vel eos eius beatae corrupti esse rem reiciendis suscipit minima, in iure possimus.
+  slides:
+    - title: Some slide
+      image: "/assets/imgs/hero/red.svg"
+    - title: Some slide
+      image: "/assets/imgs/hero/red.svg"
+    - title: Some slide
+      image: "/assets/imgs/hero/red.svg"
+
+  features_title: Workshop program
+  features:
+    - 3D Scanning
+    - 3D Modeling
+    - 3D Printing and Slicing
+    - Basic programming
+    - Content production & recording
+    - Sharing and documenting
+  action:
+    title: Register for a workshop
+    url: "#register"
 
 call1:
   title: "Easy to use"

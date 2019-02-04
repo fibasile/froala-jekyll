@@ -3,10 +3,15 @@
     <!-- Intro left - right -left -->
     {% for feature in site.data.homepage.top_features %}
      {% assign mod = forloop.index | modulo: 2 %}
+    
+    {% if forloop.index0 != 0 %}
+        <hr class="d-md-none"/>
+    {% endif %}
     {% if mod == 0 %}
     {% include homepage/feature_right.html item=feature %} 
     {% else %}
     {% include homepage/feature_left.html item=feature %} 
     {% endif %}
+
     {% endfor %}
 </div>
